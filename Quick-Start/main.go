@@ -10,7 +10,7 @@ func main() {
 	database.Init()
 
 	// fmt.Println(database.DeleteById(1))
-	
+
 	products, message := database.GetAll()
 
 	if products == nil {
