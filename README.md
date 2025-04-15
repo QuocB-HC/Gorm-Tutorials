@@ -36,3 +36,8 @@ Chạy Dự Án
 ```sh
 go run main.go
 ```
+
+Đối với Connect-Database trước khi chạy nên tạo postgres với docker
+```sh
+docker run --name postgres -e POSTGRES_PASSWORD=your_password -p 5432:5432 -d postgres
+```
